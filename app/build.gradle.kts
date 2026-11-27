@@ -1,5 +1,6 @@
 plugins {
     alias(libs.plugins.android.application)
+    id("org.jetbrains.kotlin.plugin.parcelize")
 }
 
 android {
@@ -39,4 +40,6 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.core.ktx)
     implementation(libs.material)
+    implementation (libs.glide)
+    implementation(libs.androidx.recyclerview)
 }
